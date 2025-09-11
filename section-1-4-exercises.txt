@@ -1,0 +1,74 @@
+Terms and Concepts
+{Do exponent rules apply to root functions? Explain.}
+{Yes, a root function is just a power function with a fractional exponent.}
+
+{Explain why a negative exponents moves the term to the denominator and gives it a positive exponent.}
+{A positive exponent means we are multiplying that term repeatedly, a negative exponent means we are dividing by that term repeatedly.}
+
+{Is $3x(2x+3)^{-5/3}$ in radical or exponential form?}
+{Exponential form}
+
+{Is $\displaystyle \frac{3x}{\sqrt[3]{(2x+3)^5}}$ in radical or exponential form?}
+{Radical form}
+
+Problems
+{\noindent In exercises}
+{, write the given term without using exponents.}
+{$\displaystyle (8x_1-5x_2+11)^{-1/3}$}
+{$\displaystyle \frac{1}{\sqrt[3]{8x_1-5x_2+11}}$}
+
+{$\displaystyle (-2x+y)^{-1/5}$}
+{$\displaystyle \frac{1}{\sqrt[5]{-2x+y}}$}
+
+{$\displaystyle (5x-2)^{1/4}$}
+{$\displaystyle \sqrt[4]{5x-2}$}
+
+
+{\noindent In exercises}
+{, simplify and write the given term without using radicals.}
+{$\displaystyle \Bigg( \sqrt{x} + \frac{1}{\sqrt{x}} \Bigg)^2$}
+{$\displaystyle x + 2 + \frac{1}{x}$}
+
+{$\displaystyle (\sqrt{x})^2 + \Bigg(\frac{1}{\sqrt{x}} \Bigg)^2$}
+{$\displaystyle x + \frac{1}{x}$}
+
+{$\displaystyle \Bigg(\sqrt[3]{x} +1 \Bigg)^3$}
+{$\displaystyle x + 3x^{2/3} + 3x^{1/3} + 1$}
+
+
+{\noindent In exercises}
+{, simplify the given term and write your answer without negative exponents.}
+{$\displaystyle \Bigg( \frac{-5x^{-1/4}y^3}{x^{1/4}y^{1/2}}\Bigg)^2$}
+{$\displaystyle \frac{25y^5}{x}, y \neq 0$}
+
+{$\displaystyle \Bigg( \frac{-2x^{2/3}y^2}{x^{-2}y^{1/2}}\Bigg)^6$}
+{$\displaystyle 64x^{16}y^9; x,y \neq 0$}
+
+{$\displaystyle \Bigg( \frac{-3s^{2/3}t^2}{4s^3t^{5/3}}\Bigg)^3$}
+{$\displaystyle \frac{-27t}{64s^7}, t\neq 0$}
+
+{$\displaystyle -3(x^2+4x+4)^{-4}(2x+4)$}
+{$\displaystyle \frac{-6}{(x+2)^7}$}
+
+{$\displaystyle \frac{1}{3}(x^4)^{-2/3}(4x^3)$}
+{$\displaystyle \frac{4x^{1/3}}{3}$}
+
+{$\displaystyle \frac{(e^{x+3})^2}{e^{-x}}$}
+{$\displaystyle e^{3x+6}$}
+
+{$\displaystyle \frac{e^{x^2-1}}{e^{x+1}}$}
+{$\displaystyle e^{x^2-x-2}$}
+
+
+{\noindent In exercises}
+{, simplify and write the given term in exponential form.}
+{$\displaystyle \frac{4x-1}{\sqrt[3]{(3x+2)^2}}$}
+{$\displaystyle (4x-1)(3x+2)^{-2/3}$}
+
+{$\displaystyle \sqrt[3]{\Bigg(\frac{e^{4\theta-6}y^2}{e^{\theta}y^{-4}}\Bigg)}$}
+{$\displaystyle e^{\theta-2}y^2, y \neq 0$}
+
+{$\displaystyle \sqrt[4]{\Bigg(\frac{x^2y^5}{y^{-3}}\Bigg)^2}$}
+{$\displaystyle xy^4, y\neq 0$}
+
+

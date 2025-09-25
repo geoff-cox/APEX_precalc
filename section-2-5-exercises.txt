@@ -1,0 +1,134 @@
+Terms and Concepts
+{Why do changes on the inside of the function produce horizontal changes?}
+{Answers will vary, but should include the idea that changes on the inside are changes to the inputs, which are on the horizontal axis}
+
+{Why do changes on the outside of the function produce vertical changes?}
+{Answers will vary, but should include the idea that applying changes on the outside of the function affects the outputs, which are the y values (height of the graph)}
+
+{In graphing the function $g(x)=2 \ln{(x)} + 4$, which transformation should you apply first?}
+{The vertical stretch}
+
+{In graphing the function $f(x)=(2x-1)^3$, which transformation should you apply first?}
+{The horizontal shift}
+
+{In graphing the function $h(t)=3^{t+4}$, what is the base function and how is it being transformed?}
+{The base function is $3^t$ and it is being shifted 4 units to the left}
+
+Problems
+{\noindent Graph each of the functions in exercises}
+{.}
+{$f(x)=-x^2+1$}
+{\text{}\\ \myincludegraphics{figures/fig01_05_ex_06}\label{fig:01_05_ex_06}}
+
+{$f(x) = \left\{\begin{array}{cc} 2x+8 & x \leq -1 \\ -x+7 & x>-1 \end{array}\right.$}
+{\text{}\\ \myincludegraphics{figures/fig01_05_ex_07}\label{fig:01_05_ex_07}}
+
+{$f(x) = \left\{\begin{array}{cc} -x^2 & x < 0 \\ (x-1)^2 & 0 \leq x <3 \end{array}\right.$}
+{\text{}\\ \myincludegraphics{figures/fig01_05_ex_08}\label{fig:01_05_ex_08}}
+
+{$f(x) = e^x+1$}
+{\text{}\\ \myincludegraphics{figures/fig01_05_ex_09}\label{fig:01_05_ex_09}}
+
+{$f(x) = \left\{\begin{array}{cc} \sin{(x)} & x < \pi \\ \cos{(x)} & x> \pi \end{array}\right.$}
+{\text{}\\ \myincludegraphics{figures/fig01_05_ex_10}\label{fig:01_05_ex_10}}
+
+
+{\noindent In exercises}
+{, graph and write an equation for each of the described functions.}
+{The result of shifting $g(x)=x^2$ up three units and to the left two units}
+{\text{}\\ \myincludegraphics{figures/fig01_05_ex_11}\label{fig:01_05_ex_11}\\
+$h(x)=(x+2)^2+3$}
+
+{Any even degree polynomial that is positive for $-2 \leq x \leq 4$.}
+{Answers will vary, but an example is \myincludegraphics{figures/fig01_05_ex_12}\label{fig:01_05_ex_12}\\
+$h(x)=x^2+1$}
+
+{The result of shifting $f(\theta) = -2\theta +3$ down two units and right 5 units.}
+{\text{}\\ \myincludegraphics{figures/fig01_05_ex_13}\label{fig:01_05_ex_13}\\
+$g(\theta) = -2(\theta-5) + 3 -2=-2\theta + 11$}
+
+{The piecewise function that consists of $t^2$, shifted down one unit for $t \leq -2$ and of the line with a slope of 3 and a y-intercept of 3 for $t>-2$.}
+{\text{}\\ \myincludegraphics{figures/fig01_05_ex_14}\label{fig:01_05_ex_14}\\
+$f(t) = \left\{\begin{array}{cc} t^2-1 & t \leq 2 \\ 3t+3 & -2<x \end{array}\right.$} }
+
+{The line with a slope of $\frac{2}{3}$ that passes through the point $(1,f(2))$, where $f(x)=x^2-1$.}
+{\text{}\\ \myincludegraphics{figures/fig01_05_ex_15}\label{fig:01_05_ex_15}\\
+$y-3 = \frac{2}{3} (x-1)$, or $y=\frac{2}{3} x + \frac{7}{3}$ }
+
+
+{\noindent In exercises}
+{, factor the given function, and graph the function.}
+{$b(x)=x^3+6x^2+12x+8$}
+{$b(x)=(x+2)^3$; \\
+\myincludegraphics{figures/fig02_01_ex_28}\label{fig:02_01_ex_28}}
+}
+
+{$y(t) = t^2-6t+9$}
+{$y(t)=(t-3)^2$; \\
+\myincludegraphics{figures/fig02_01_ex_29}\label{fig:02_01_ex_29}}
+
+{$f(x) = x^2+4x+4$}
+{$f(x)=(x+2)^2$; \\
+\myincludegraphics{figures/fig02_01_ex_30}\label{fig:02_01_ex_30}}
+
+
+{\noindent For each of 
+\begin{itemize}
+	\item $f(x)=x^2-3x$,
+	\item $\eta(\theta) = \cos{(\theta)}$, and
+	\item $g(w)=3^w-w^3$,
+\end{itemize}
+write the equation for the new function that results from the transformation(s) stated in exercises}
+{.}
+{Shift up 3 units}
+{$x^2-3x+3$; $\cos{(\theta)} + 3$; $3^w - w^3 + 3$}
+
+{Shift right 2 units}
+{$(x-2)^2-3(x-2)$; $\cos{(\theta-2)}$; $3^{w-2} - (w-2)^3$}
+
+{Shift down 2 units and left 1 unit}
+{$(x+1)^2-3(x+1) -2$; $\cos{(\theta+1)} -2$; $3^{w+1} - (w+1)^3 -2$}
+
+{Shift down $\pi$ units and right $e$ units}
+{$(x-e)^2-3(x-e) - \pi$; $\cos{(\theta-e)} - \pi$; $3^{w-e} - (w-e)^3 - \pi$}
+
+{Flip across the x-axis}
+{$(-x)^2-3(-x)$; $\cos{(-\theta)} $; $3^{-w} - (-w)^3$}
+
+{Flip across the y-axis}
+{$-(x^2-3x)$; $-\cos{(\theta)} $; $-(3^{-w} - w^3)$}
+
+
+{\noindent Answer each question in exercises}
+{ using the provided graphs.}
+{Based on the shape of the graph of $f(x)$ shown, below,
+\myincludegraphics{figures/fig01_05_ex_22}\label{fig:01_05_ex_22}
+\begin{enumerate}[label=(\alph*)]
+\item could $f(x)$ be an even polynomial? Why or why not?
+\item could $f(x)$ be an odd polynomial? Why or why not?
+\item could $f(x)$ be an exponential function? Why or why not?
+\item could $f(x)$ be a trigonometric function? Why or why not?
+\end{enumerate}}
+{\begin{enumerate}[label=(\alph*)]
+	\item no; it is not symmetric about the y-axis
+	\item yes; it has rotational symmetry
+	\item no; it does not have a horizontal asymptote
+	\item no; it does not have a periodic (repeating) pattern
+\end{enumerate}}
+
+{Based on the shape of the graph of $g(x)$ shown, below,
+\myincludegraphics{figures/fig01_05_ex_23}\label{fig:01_05_ex_23}
+\begin{enumerate}[label=(\alph*)]
+\item could $g(x)$ be an even polynomial? Why or why not?
+\item could $g(x)$ be an odd polynomial? Why or why not?
+\item could $g(x)$ be an exponential function? Why or why not?
+\item could $g(x)$ be a trigonometric function? Why or why not?
+\end{enumerate}}
+{\begin{enumerate}[label=(\alph*)]
+	\item no; it is not symmetric about the y-axis
+	\item no; it does not have rotational symmetry
+	\item yes; it does not have a horizontal asymptote on one side and grows without bound on the other
+	\item no; it does not have a periodic (repeating) pattern
+\end{enumerate}}
+
+

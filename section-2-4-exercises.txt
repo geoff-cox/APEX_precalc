@@ -1,94 +1,134 @@
 Terms and Concepts
-{How would completing the square on a quadratic function help you graph it?}
-{After completing the square, you can quickly identify the horizontal and vertical shifts}
+{Why do changes on the inside of the function produce horizontal changes?}
+{Answers will vary, but should include the idea that changes on the inside are changes to the inputs, which are on the horizontal axis}
 
-{After completing the square, you get $f(x)=(x-2)^2+3$. Is $x=2$ considered a root of $f(x)$? Explain.}
-{$x=2$ is not a root of $f(x)$ because $f(2)=3$, not $0$.}
+{Why do changes on the outside of the function produce vertical changes?}
+{Answers will vary, but should include the idea that applying changes on the outside of the function affects the outputs, which are the y values (height of the graph)}
 
-{One of the variations on completing the square gives you the form $(cx+a)^2+b$. Does $c$ represent a vertical stretch/shrink or a horizontal stretch/shrink of the function $x^2$?}
-{It represents a horizontal stretch/shrink because it is on the inside of the function.}
+{In graphing the function $g(x)=2 \ln{(x)} + 4$, which transformation should you apply first?}
+{The vertical stretch}
 
-{After completing the square you get that $g(t)=(t+2)^2-6$. What are the values of $a$ and $b$ if your goal form is $(x+a)^2+b$?}
-{$a=2$ and $b=-6$}
+{In graphing the function $f(x)=(2x-1)^3$, which transformation should you apply first?}
+{The horizontal shift}
+
+{In graphing the function $h(t)=3^{t+4}$, what is the base function and how is it being transformed?}
+{The base function is $3^t$ and it is being shifted 4 units to the left}
 
 Problems
-{\noindent In exercises}
-{, write each function in the form $(x+a)^2+b$ and identify the values of $a$ and $b$.}
-{$f(x)=x^2-4x+6$}
-{$f(x)=(x-2)^2+2$; $a=-2$; $b=2$}
+{\noindent Graph each of the functions in exercises}
+{.}
+{$f(x)=-x^2+1$}
+{\text{}\\ \myincludegraphics{figures/fig01_05_ex_06}\label{fig:01_05_ex_06}}
 
-{$g(x)=x^2+20x+40$}
-{$g(x)=(x+10)^2-60$; $a=10$; $b=-60$}
+{$f(x) = \left\{\begin{array}{cc} 2x+8 & x \leq -1 \\ -x+7 & x>-1 \end{array}\right.$}
+{\text{}\\ \myincludegraphics{figures/fig01_05_ex_07}\label{fig:01_05_ex_07}}
 
-{$h(x)=x^2-8x+5$}
-{$h(x)=(x-4)^2-11$; $a=-4$; $b=-11$}
+{$f(x) = \left\{\begin{array}{cc} -x^2 & x < 0 \\ (x-1)^2 & 0 \leq x <3 \end{array}\right.$}
+{\text{}\\ \myincludegraphics{figures/fig01_05_ex_08}\label{fig:01_05_ex_08}}
 
-{$m(x)=x^2-22x-4$}
-{$m(x)=(x-11)^2-125$; $a=-11$; $b=-125$}
+{$f(x) = e^x+1$}
+{\text{}\\ \myincludegraphics{figures/fig01_05_ex_09}\label{fig:01_05_ex_09}}
 
-{$n(x)=x^2-6x-2$}
-{$n(x)=(x-3)^2-11$; $a=-3$; $b=-11$}
-
-{$p(x)=x^2+11x+4$}
-{$p(x)=(x+\frac{11}{2})^2-\frac{105}{4}$; $a=\frac{11}{2}$; $b=-\frac{105}{4}$}
-
-{$p(x)=x^2+13x$}
-{$p(x)=(x+\frac{13}{2})^2-\frac{169}{4}$; $a=\frac{13}{2}$; $b=-\frac{169}{4}$}
+{$f(x) = \left\{\begin{array}{cc} \sin{(x)} & x < \pi \\ \cos{(x)} & x> \pi \end{array}\right.$}
+{\text{}\\ \myincludegraphics{figures/fig01_05_ex_10}\label{fig:01_05_ex_10}}
 
 
 {\noindent In exercises}
-{, write each function in the form $c(x+a)^2+b$ and identify the values of $a$, $b$, and $c$.}
-{$f(x)=9x^2-12x+12$}
-{$f(x)=9(x-\frac{2}{3})^2+8$; $a=-\frac{2}{3}$; $b=8$; $c=9$}
+{, graph and write an equation for each of the described functions.}
+{The result of shifting $g(x)=x^2$ up three units and to the left two units}
+{\text{}\\ \myincludegraphics{figures/fig01_05_ex_11}\label{fig:01_05_ex_11}\\
+$h(x)=(x+2)^2+3$}
 
-{$g(x)=x^2-2x+2$}
-{$f(x)=(x-1)^2+1$; $a=-1$; $b=1$; $c=1$}
+{Any even degree polynomial that is positive for $-2 \leq x \leq 4$.}
+{Answers will vary, but an example is \myincludegraphics{figures/fig01_05_ex_12}\label{fig:01_05_ex_12}\\
+$h(x)=x^2+1$}
 
-{$h(x)=4x^2-4x-4$}
-{$h(x)=4(x-\frac{1}{2})^2-5$; $a=-\frac{1}{2}$; $b=-5$; $c=4$}
+{The result of shifting $f(\theta) = -2\theta +3$ down two units and right 5 units.}
+{\text{}\\ \myincludegraphics{figures/fig01_05_ex_13}\label{fig:01_05_ex_13}\\
+$g(\theta) = -2(\theta-5) + 3 -2=-2\theta + 11$}
 
-{$w(x)=4x^2+4x+6$}
-{$w(x)=4(x+\frac{1}{2})^2+5$; $a=\frac{1}{2}$; $b=5$; $c=4$}
+{The piecewise function that consists of $t^2$, shifted down one unit for $t \leq -2$ and of the line with a slope of 3 and a y-intercept of 3 for $t>-2$.}
+{\text{}\\ \myincludegraphics{figures/fig01_05_ex_14}\label{fig:01_05_ex_14}\\
+$f(t) = \left\{\begin{array}{cc} t^2-1 & t \leq 2 \\ 3t+3 & -2<x \end{array}\right.$} }
 
-{$y(x)=9x^2+18x+4$}
-{$y(x)=9(x+1)^2-5$; $a=1$; $b=-5$; $c=9$}
-
-
-{\noindent In exercises}
-{, complete the square and use your result to help you graph the function.}
-{$f(t)=t^2+2t+3$}
-{$f(t)=(t+1)^2 +2$; \\
-\myincludegraphics{figures/fig02_02_ex_22}\label{fig:02_02_ex_22}}
-
-{$p(q)=q^2 -\frac{2}{3}q$}
-{$p(q)=(q-\frac{1}{3})^2 - \frac{1}{9}$; \\
-\myincludegraphics{figures/fig02_02_ex_23}\label{fig:02_02_ex_23}}
-
-{$y(x) = x^2+4x+2$}
-{$y(x) = (x+2)^2-2$; \\
-\myincludegraphics{figures/fig02_02_ex_24}\label{fig:02_02_ex_24}}
-
-{$f(x) = x^2-4x+6$}
-{$f(x) = (x-2)^2+2$; \\
-\myincludegraphics{figures/fig02_02_ex_25}\label{fig:02_02_ex_25}}
+{The line with a slope of $\frac{2}{3}$ that passes through the point $(1,f(2))$, where $f(x)=x^2-1$.}
+{\text{}\\ \myincludegraphics{figures/fig01_05_ex_15}\label{fig:01_05_ex_15}\\
+$y-3 = \frac{2}{3} (x-1)$, or $y=\frac{2}{3} x + \frac{7}{3}$ }
 
 
 {\noindent In exercises}
-{, expand and graph the function.}
-{$f(x) = (x-1)^2-2$}
-{$f(x) = x^2-2x-1$ \\
-\myincludegraphics{figures/fig02_02_ex_26}\label{fig:02_02_ex_26}}
+{, factor the given function, and graph the function.}
+{$b(x)=x^3+6x^2+12x+8$}
+{$b(x)=(x+2)^3$; \\
+\myincludegraphics{figures/fig02_01_ex_28}\label{fig:02_01_ex_28}}
+}
 
-{$g(x) = -(x+3)^2+4$}
-{$g(x) = -x^2-6x-5$ \\
-\myincludegraphics{figures/fig02_02_ex_27}\label{fig:02_02_ex_27}}
+{$y(t) = t^2-6t+9$}
+{$y(t)=(t-3)^2$; \\
+\myincludegraphics{figures/fig02_01_ex_29}\label{fig:02_01_ex_29}}
 
-{$h(x) = (-x+3)^2+4$}
-{$h(x) = x^2-6x+13$ \\
-\myincludegraphics{figures/fig02_02_ex_28}\label{fig:02_02_ex_28}}
+{$f(x) = x^2+4x+4$}
+{$f(x)=(x+2)^2$; \\
+\myincludegraphics{figures/fig02_01_ex_30}\label{fig:02_01_ex_30}}
 
-{$x(y) = (y+2)^2-1$}
-{$x(y) = y^2+4y+3$ \\
-\myincludegraphics{figures/fig02_02_ex_29}\label{fig:02_02_ex_29}}
+
+{\noindent For each of 
+\begin{itemize}
+	\item $f(x)=x^2-3x$,
+	\item $\eta(\theta) = \cos{(\theta)}$, and
+	\item $g(w)=3^w-w^3$,
+\end{itemize}
+write the equation for the new function that results from the transformation(s) stated in exercises}
+{.}
+{Shift up 3 units}
+{$x^2-3x+3$; $\cos{(\theta)} + 3$; $3^w - w^3 + 3$}
+
+{Shift right 2 units}
+{$(x-2)^2-3(x-2)$; $\cos{(\theta-2)}$; $3^{w-2} - (w-2)^3$}
+
+{Shift down 2 units and left 1 unit}
+{$(x+1)^2-3(x+1) -2$; $\cos{(\theta+1)} -2$; $3^{w+1} - (w+1)^3 -2$}
+
+{Shift down $\pi$ units and right $e$ units}
+{$(x-e)^2-3(x-e) - \pi$; $\cos{(\theta-e)} - \pi$; $3^{w-e} - (w-e)^3 - \pi$}
+
+{Flip across the x-axis}
+{$(-x)^2-3(-x)$; $\cos{(-\theta)} $; $3^{-w} - (-w)^3$}
+
+{Flip across the y-axis}
+{$-(x^2-3x)$; $-\cos{(\theta)} $; $-(3^{-w} - w^3)$}
+
+
+{\noindent Answer each question in exercises}
+{ using the provided graphs.}
+{Based on the shape of the graph of $f(x)$ shown, below,
+\myincludegraphics{figures/fig01_05_ex_22}\label{fig:01_05_ex_22}
+\begin{enumerate}[label=(\alph*)]
+\item could $f(x)$ be an even polynomial? Why or why not?
+\item could $f(x)$ be an odd polynomial? Why or why not?
+\item could $f(x)$ be an exponential function? Why or why not?
+\item could $f(x)$ be a trigonometric function? Why or why not?
+\end{enumerate}}
+{\begin{enumerate}[label=(\alph*)]
+	\item no; it is not symmetric about the y-axis
+	\item yes; it has rotational symmetry
+	\item no; it does not have a horizontal asymptote
+	\item no; it does not have a periodic (repeating) pattern
+\end{enumerate}}
+
+{Based on the shape of the graph of $g(x)$ shown, below,
+\myincludegraphics{figures/fig01_05_ex_23}\label{fig:01_05_ex_23}
+\begin{enumerate}[label=(\alph*)]
+\item could $g(x)$ be an even polynomial? Why or why not?
+\item could $g(x)$ be an odd polynomial? Why or why not?
+\item could $g(x)$ be an exponential function? Why or why not?
+\item could $g(x)$ be a trigonometric function? Why or why not?
+\end{enumerate}}
+{\begin{enumerate}[label=(\alph*)]
+	\item no; it is not symmetric about the y-axis
+	\item no; it does not have rotational symmetry
+	\item yes; it does not have a horizontal asymptote on one side and grows without bound on the other
+	\item no; it does not have a periodic (repeating) pattern
+\end{enumerate}}
 
 

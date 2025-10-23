@@ -1,0 +1,86 @@
+Terms and Concepts
+{What does ``the function $f(t)$'' tell you that ``the function $f$'' does not?}
+{It tells us that $t$ is the input for the function $f$.}
+
+{T/F: If $g(x)=x^2$, then $g(2)=g(-2)$.}
+{True.}
+
+{T/F: You can't combine functions using both composition and quotients in the same function.}
+{False.}
+
+{T/F: In the combination $g(f(x))$, $f(x)$ is the input for $g(x)$.}
+{True.}
+
+Problems
+{Let $f(x)=x^3$, $g(x)=x+4$, and $h(x)=\sin{(x)}$. Each of exercise}
+{ is some combination of $f(x)$, $g(x)$, and $h(x)$. Determine the type of combination and write it using function notation. For example, $x^3+x+4$ is the addition of $f(x)$ and $g(x)$ and can be written as $f(x)+g(x)$.  }
+{$\frac{x^3}{\sin{(x)}}$}
+{Quotient of $f(x)$ and $h(x)$; $\frac{f(x)}{h(x)}$}
+
+{$\sin{(x+4)}$}
+{Composition of $h(x)$ with $g(x)$; $h(g(x))$}
+
+{$\sin{(x)}+4$}
+{Composition of $g(x)$ with $h(x)$; $g(h(x))$}
+
+{$(2x^3)(x+4)$}
+{Product of a scalar multiple of $f(x)$ with $g(x)$; $(2f(x))(g(x))$}
+
+
+{In exercises}
+{, determine the input variable of each function, any parameters of the function, and the type of function.}
+{$C(A) = \frac{k \epsilon_0 A}{d}$}
+{The input variable is $A$. The parameters are $k$, $\epsilon_0$, and $d$. This is a monomial of degree 1.}
+
+{$v(t) = -9.8t + v_0$}
+{The input variable is $t$. The only parameter is $v_0$. This is a polynomial of degree 1.}
+
+{$A(t)=P(1+\frac{r}{n})^{nt}$}
+{The input variable is $t$. The parameters are $P$, $r$, and $n$. This is an exponential function.}
+
+
+{In exercises}
+{, evaluate the given expression.}
+{Given $f(x)=2x^2$ and $g(x)=x-b$, find $5f(3a)-g(4)$}
+{$90a^2-4+b$}
+
+{Given $f(x)=x^2-3$ and $g(x)=x-b$, find $f(y+h)-3g(5)$}
+{$y^2+2yh+h^2-18+3b$}
+
+
+{Given $f(x)=5-x$ and $g(x)=-x^4+p$, find $f(y+h)-3g(y)$}
+{$5-y-h+3y^4-3p$}
+
+
+{Given $f(\theta)=\frac{\theta+3}{\theta-2}$ and $g(\theta)=\theta^2+4$, find $g(f(3))$}
+{$40$}
+
+
+{Given $g(x)=x^2-4$ and $f(x)=\sqrt{x+8}$, find $g(x+h)-2f(8)$}
+{$x^2+2xh+h^2-12$}
+
+
+{Given $f(y)=y-5$ and $g(y)=h-y^2$, find $g(f(y))-f(g(y))$}
+{$10y-20$}
+
+
+
+{In exercises}
+{, determine the difference quotient of each of the following functions.}
+{$h(r)=2r+4$}
+{$2$}
+
+
+{$g(y)=4y-7$}
+{$4$}
+
+
+{$y(x)=x^2+6$}
+{$2x+h$}
+
+
+{$f(t)=4t^2+x$}
+{$8t+4h$}
+
+
+

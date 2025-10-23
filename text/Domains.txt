@@ -1,0 +1,194 @@
+\section{Function Domains}\label{sec:domains}
+
+This section covers function domains. In calculus, we will use domains to help identify any discontinuities in functions and perform a full analysis of a function. Function domains will also help identify vertical asymptotes, places where a function may switch between increasing and decreasing, and places where the concavity (general curvature) of a function may change.
+
+\vskip \baselineskip
+\noindent\textbf{\large Function Domains}\\
+
+The \emph{domain} of a function is the set of all possible real number inputs that result in a real number output for that function. Domains are typically expressed using interval notation, labeled with ``$D$:''. With domains, it's often easier to look for inputs that will cause problems, rather than looking for ``good'' inputs. By making a list of trouble points, we will determine the domain by looking at what's left. We'll start by looking at the domain for each of our common functions discussed in Section \ref{sec:functions}.
+
+\vskip \baselineskip
+\noindent\textbf{Domains of Power Functions}\\
+
+For power functions, the domain will depend on the value of the exponent. In Section \ref{sec:functions}, we said that power functions have the form $f(x)=ax^b$ where $a$ and $b$ can be any real numbers. We'll start by looking at where we could run into trouble with certain inputs.
+
+The first place we can run into trouble is if $b$ is negative. This will always cause a problem for $x=0$ because the negative exponent means we would be dividing by 0 (and we can't do that!). 
+
+The second place where we can run into trouble is when $b$ is not a whole number. Here we'll focus on rational numbers, i.e., any number that can be written as a fraction. Say $b=\frac{p}{q}$ where $p$ and $q$ are whole numbers with no common factors. If $q$ is odd, we won't have any trouble with any inputs, but if $q$ is even we can have problems. If we try to take an even root of a negative number (like $\sqrt{-4}=(-4)^{1/2}$) we don't get a real number. We'll have this trouble with any negative input value if $q$ is even, so in this situation, we can't input any negative numbers.
+
+By combining these two trouble spots, we can find the domain of any power function you're likely to run into:
+%
+%\begin{enumerate}
+%	\item D: $(-\infty, infty)$ if $b$ is a positive whole number;
+%	\item D: $(-\infty,0)\cup(0,\infty)$ if $b$ is a negative whole number;
+%	\item D: $[0,\infty)$ if $b=\frac{p}{q}$ where $b$ is positive and $q$ is even;
+%	\item D: $(0,\infty)$ if $b=\frac{p}{q}$ where $b$ is negative and $q$ is even;
+%	\item D: $
+%\end{enumerate}
+
+\vskip \baselineskip
+
+\example{ex_01_03_02}{Power Function Domains}{Determine the domain for each of the following power functions:\\
+\noindent\begin{minipage}[t]{.5\textwidth}
+		\begin{enumerate}
+		\item	$\displaystyle f(x) = x ^{2/3}$	
+		\item	$\displaystyle g(x) = 4 x ^ {-2}$	
+		\item	$\displaystyle h(x) = -5 x ^{8}$	
+		\end{enumerate}
+		\end{minipage}
+		\begin{minipage}[t]{.5\textwidth}
+		\begin{enumerate}\addtocounter{enumi}{4}
+		\item	$\displaystyle w(t) = \frac{1}{2} t ^{-1/3}$
+		\item	$\displaystyle y(t) = t ^ {-3/4}$	
+		\item	$\displaystyle z(t) = -2 t^{3/4}$	
+		\end{enumerate}	
+		\end{minipage}
+}{For each of these, we need to look at the exponent only; scalar multiplication of a function does not affect the domain.
+\noindent \begin{enumerate}
+		\item For $f(x)$, $b=\frac{2}{3}$. This is a fraction, so we need to look at the denominator. The denominator is 3, an odd number. This tells us that negative inputs are fine. Since $b$ is positive, we know that 0 is also fine. So, we have 
+\drawexampleline
+				\begin{center}
+		\begin{tabular}{| c |} \hline
+			\\[-4pt]
+			D: $(-\infty,\infty)$ \\[-4pt]
+			\\\hline
+		\end{tabular}
+	\end{center}
+		\item For $g(x)$, we have $b=-2$. This is a whole number, so we only need to look at its sign. It's negative, so this tells us that 0 will cause trouble. So, 	
+			\begin{center}
+		\begin{tabular}{| c |} \hline
+			\\[-4pt]
+			D: $(-\infty,0)\cup(0,\infty)$ \\[-4pt]
+			\\\hline
+		\end{tabular}
+	\end{center}
+		\item For $h(x)$, $b=8$. This is a positive whole number, so we don't have any trouble inputs since we can only run into trouble if $b$ is negative or a fraction. So, 
+				\begin{center}
+		\begin{tabular}{| c |} \hline
+			\\[-4pt]
+			D: $(-\infty,\infty)$ \\[-4pt]
+			\\\hline
+		\end{tabular}
+	\end{center}
+		\item For $w(t)$, we have $b=-\frac{1}{3}$. It's negative, so 0 is a problem, but it's a fraction with an odd denominator, so negative inputs are fine. Thus, 
+				\begin{center}
+		\begin{tabular}{| c |} \hline
+			\\[-4pt]
+			D: $(-\infty,0)\cup(0,\infty)$ \\[-4pt]
+			\\\hline
+		\end{tabular}
+	\end{center}
+		\item For $y(t)$, $b=-\frac{3}{4}$. This is negative, so 0 is a problem. It's a fraction with an even denominator, so negative inputs are also a problem. That leaves 
+				\begin{center}
+		\begin{tabular}{| c |} \hline
+			\\[-4pt]
+			D: $(0,\infty)$ \\[-4pt]
+			\\\hline
+		\end{tabular}
+	\end{center}
+		\item For $z(t)$, $b=\frac{3}{4}$. This is positive, so 0 is fine, but again it's a fraction with an even denominator so negative inputs are a problem. That means 
+				\begin{center}
+		\begin{tabular}{| c |} \hline
+			\\[-4pt]
+			D: $[0,\infty)$ \\[-4pt]
+			\\\hline
+		\end{tabular}
+	\end{center}
+
+	\end{enumerate}	
+
+Notice that the domain for $z(t)$ has a bracket, so it includes 0, but the domain for $y(t)$ has a parenthesis so it doesn't include 0.
+}\\
+
+\vskip \baselineskip
+\noindent\textbf{Domains of Exponential Functions}\\
+
+Next on our list of common functions are exponential functions, functions of the form $f(x) = b^x$, with $b>0$ and $b\neq 1$.. For exponential functions, we can use any real number input and get a real number as output, so the domain is always $(-\infty,\infty)$. 
+
+\vskip \baselineskip
+\noindent\textbf{Domains of Logarithmic Functions}\\
+
+For logarithmic functions, only positive inputs give us real number outputs, so the domain of $\log_b{(x)}$ is $(0,\infty)$ for every valid base, $b$. Note that 0 is not in the domain.
+
+\vskip \baselineskip
+\noindent\textbf{Domains of Trigonometric Functions}\\
+
+The last type of common function we discussed was trigonometric functions. Here the domain depends on the exact function you are using; we'll discuss these more later in this text.
+
+\vskip \baselineskip
+
+\noindent\textbf{\large Domains for Combined Function}\\
+
+When we look at combined functions, we will start by looking at the domain for each individual function. If an input is a problem for one of the individual functions, it will also be a problem for the combined function. Additionally, other problems can be introduced depending on how the functions are combined. Scalar multiplication, addition, subtraction, and multiplication do not introduce other problems, but quotients and compositions can.
+
+With quotients, for every input we are evaluating a fraction. We can run into a new problem if the denominator is 0. So, as part of determining the domain of a quotient, we will need to see when, if anywhere, the denominator is 0. Let's take a look:
+
+\vskip \baselineskip
+
+\example{ex_01_03_03}{Quotient Function Domains}{Determine the domain of
+\begin{equation*}
+	f(\theta) = \frac{\theta^2 +4}{\sqrt{\theta} - 1}
+\end{equation*}
+}{
+First, let's look at each of the individual functions. The numerator has $\theta^2 +4$. This is the addition of two monomials: $\theta^2$ and $4$. The addition doesn't introduce any problems. $\theta^2$ is a power function where $b$ is a positive whole number, so it doesn't introduce any problems. $4$ doesn't depend on an input, so it doesn't introduce any problems.
+
+The denominator is  $\sqrt{\theta} -1$. This is the difference of $\sqrt{\theta}$ and $ 1$. Like with addition, the difference doesn't introduce any problems. The function $1$ doesn't introduce any problems. $\sqrt{\theta}$ is another way of writing $\theta^{1/2}$. This is a power function where $b$ is positive, so 0 is fine. However, $b$ is a fraction with an even denominator so negative inputs cause a problem.
+
+So far, the only issue we have comes from the square root. However, since we have a quotient, we need to see if the denominator is ever 0. We'll do this by solving:
+
+\begin{equation*}
+	\sqrt{\theta} -1 = 0 
+\end{equation*}
+
+Adding 1 to both sides gives
+
+\begin{equation*}
+	\sqrt{\theta} = 1
+\end{equation*}
+
+Squaring both sides gives us
+\begin{equation*}
+	\theta = 1 ^2 = 1
+\end{equation*}
+
+This tells us that we will also have a problem when $\theta=1$. All together then, we have problems with negative inputs and with 1, so 
+	\begin{center}
+		\begin{tabular}{| c |} \hline
+			\\[-4pt]
+			The domain of $f(\theta)$ is $\theta \in [0,1)\cup(1,\infty)$ \\[-4pt]
+			\\\hline
+		\end{tabular}
+	\end{center} }\\
+
+Notice that in Example \ref{ex_01_03_03}, 0 is part of the domain even though we have a quotient. A quotient doesn't mean that 0 as an input is a problem, rather that any inputs that make the denominator 0 are problems.
+
+Composition of functions can drastically change domains. With composition, you'll have to restrict the output of the inside function to make sure it's suitable to be an input of the outside function. This can give extra restrictions on the overall domain. 
+
+\vskip \baselineskip
+
+\example{ex_01_03_04}{Domain of a Function Composition}{Determine the domain of
+\begin{equation*}
+	f(x) = \sqrt{6-x} + 12x
+\end{equation*}
+}{Overall, we have the addition of two functions, $\sqrt{6-x}$ and $12x$. Addition doesn't introduce any problems. The second function, $12x$ has no problem inputs because it's a power function where $b$ is a positive whole number. However, we know that the square root function can't use negative inputs since it's really a power functions with $b=\frac{1}{2}$. Since the square root is a composition with $6-x$ as the inside function, we'll need to determine when $6-x$ is negative to find which values of $x$ are a problem. To do that, we'll solve the inequality
+
+\begin{equation*}
+	6-x <0
+\end{equation*}
+
+Luckily, this isn't too complicated; we'll add $-x$ to both sides to get $6<x$, or $x>6$. This tells us that any input bigger than 6 is going to be a problem for $f(x)$. So, the domain of $f(x)$ is $(-\infty,6].$ We use a bracket on the right since we can use 6 as an input. So, altogether, we have that
+	\begin{center}
+		\begin{tabular}{| c |} \hline
+			\\[-4pt]
+			The domain of $f(x) = \sqrt{6-x} + 12x$ is $x \in (-\infty, 6]$ \\[-4pt]
+			\\\hline
+		\end{tabular}
+	\end{center}
+}\\
+
+The hardest part of finding domains is working carefully and methodically. You probably noticed that all of these examples seem to have an awful lot of written explanation for math problems. While we don't typically write out complete sentences in our own work, we will include notes like ``$\ln(x)$: problems with 0 and $x<0$''. We also keep a running list of problem points on the side of the page as we work through more complicated functions to make sure we get all of the problem inputs so that we can exclude them from the domain.\\
+
+
+\printexercises{exercises/domains_exercises}
+
+

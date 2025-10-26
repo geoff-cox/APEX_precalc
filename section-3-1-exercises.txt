@@ -1,0 +1,110 @@
+Terms and Concepts
+{Is it possible to solve a cubic statement?}
+{Yes, but it can be quite difficult, especially if it has many parameters}
+
+{What are the possible types of solutions when solving a quadratic statement?}
+{2 distinct real roots; 1 repeated real root; a complex conjugate pair of roots}
+
+{What is the maximum number of different solutions that a seventh degree statement could have?}
+{7}
+
+{T/F: A cubic statement can have only complex solutions. Explain.}
+{F; it must have at least one real solution since complex solutions come in pairs}
+
+Problems
+{\noindent In exercises}
+{, determine the type of statement in terms of the given variable.}
+{$x^3y+2x^2yz-6xz^2 = yz^2 -10$ in terms of $x$}
+{cubic}
+
+{$x^3y+2x^2yz-6xz^2 = yz^2 -10$ in terms of $y$}
+{linear}
+
+{$x^3y+2x^2yz-6xz^2 = yz^2 -10$ in terms of $z$}
+{quadratic}
+
+{$xt + \cos{(\theta)}=x^4t^3-6t$ in terms of $\theta$}
+{trigonometric}
+
+{$xt + \cos{(\theta)}=x^4t^3-6t$ in terms of $x$}
+{quartic, or a statement of degree 4}
+
+{$xt + \cos{(\theta)}=x^4t^3-6t$ in terms of $t$}
+{cubic}
+
+
+{\noindent In exercises}
+{, determine if it is possible to solve the statement for the given variable. If it is possible, solve but do not simplify your answer(s). If it is not possible, explain why.}
+{$xy^2-xy=5y-3x$ for $x$}
+{It is possible to solve; $x=\displaystyle \frac{5y}{y^2-y+3}$}
+
+{$xy^2-xy=5y-3x$ for $y$}
+{$\displaystyle \frac{x+5 \pm\sqrt{-11x^2+10x+25}}{2x}$}
+
+{$3t^2-5mq=8qt+2m^3$ for $q$}
+{It is possible to solve; $q=\displaystyle \frac{3t^2-2m^3}{8t+5m}$}
+
+{$2a^2bc^3+3abc^2+4a^2c^2-3b=4c$ for $a$}
+{It is possible to solve; $a = \displaystyle \frac{-(3bc^2) \pm \sqrt{(3bc^2)^2 - 4 (2bc^3+4c^2)(-3b-4c)}}{2(2bc^3+4c^2)}$}
+
+{$2a^2bc^3+3abc^2+4a^2c^2-3b=4c$ for $b$}
+{It is possible to solve; $b = \displaystyle \frac{4c-4a^2c^2}{2a^2c^3+3ac^2-3}$}
+
+{$\log_2{(xy)=x+e^z}$ for x}
+{Not possible to solve for x; it is inside of a logarithm and has a linear term}
+
+{$\log_2{(xy)=x+e^z}$ for y}
+{It is possible to solve; $\displaystyle y= 2^{x+e^z-log_2{(x)}}$ or $\displaystyle y= \frac{2^{x+e^z}}{x}$}
+
+{$\log_2{(xy)=x+e^z}$ for z}
+{It is possible to solve; $\displaystyle z= \ln{[log_2{(xy)} -x]}$}
+
+
+{\noindent In exercises}
+{, solve for $x$. Be sure to list all possible values of $x$.}
+{$x^2-16=0$}
+{$x=-4,4$}
+
+{$x^2+16=0$}
+{$x=-4i,4i$}
+
+{$x^2-4x-7=2$}
+{$x=2+\sqrt{13}, 2- \sqrt{13}$}
+
+{$x^2-2x+7=2$}
+{$x=1+2i, 1-2i$}
+
+{$5x^2+2x=-1$}
+{$\displaystyle x=\frac{-1+2i}{5}, \frac{-1-2i}{5}$}
+
+{$x^3=8$}
+{$x=2$}
+
+{$x^3+x^2=4x+4$}
+{$x=-2, -1, 2$}
+
+{$2(x-3)^2-7 = -4x+9$}
+{$x=2-\sqrt{3}, 2+ \sqrt{3}$}
+
+{$(x+2)^3 = 2x^2+8x+7$}
+{$\displaystyle x=-1, \frac{-3+\sqrt{5}}{2}, \frac{-3-\sqrt{5}}{2}$}
+
+
+{\noindent In exercises}
+{, Classify the type(s) of solution(s) from the given exercise.}
+{Exercise 19}
+{Two real solutions}
+
+{Exercise 20}
+{A complex conjugate pair}
+
+{Exercise 21}
+{Two real solutions}
+
+{Exercise 24}
+{One repeated solution}
+
+{Exercise 25}
+{Three real solutions}
+
+

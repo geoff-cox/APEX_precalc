@@ -1,0 +1,67 @@
+Terms and Concepts
+{Explain why the domain of tangent is restricted.}
+{Tangent is undefined whenever cosine is 0.}
+
+{Explain why the domain of cosecant is restricted.}
+{Cosecant is undefined whenever sine is 0.}
+
+{Explain what is meant by the range of a function.}
+{The range describes the possible output values of the function.}
+
+{What do the coordinates on the unit circle tell you?}
+{The x coordinate tells you the value of cosine for that angle and the y coordinate tells you the value of sine for that angle.}
+
+{Sketch the unit circle from memory. Use Figure \ref{fig:unitcircle} to check your work and add in any values you could not remember.}
+{See Figure \ref{fig:unitcircle}.}
+
+Problems
+{\noindent Evaluate each statement given in exercises}
+{.}
+{$\displaystyle \tan{\bigg( \frac{\pi}{4}\bigg)}$}
+{$\displaystyle 1$}
+
+{$\displaystyle \cos{\bigg( \frac{-\pi}{4}\bigg)}$}
+{$\displaystyle \frac{\sqrt{2}}{2}$}
+
+{$\displaystyle \sin{\bigg( \frac{3\pi}{4}\bigg)}$}
+{$\displaystyle \frac{\sqrt{2}}{2}$}
+
+{$\displaystyle \csc{\bigg( \frac{-3\pi}{4}\bigg)}$}
+{$\displaystyle -\sqrt{2}$}
+
+{$\displaystyle \sin{\bigg( \frac{3\pi}{2}\bigg)}$}
+{$\displaystyle -1$}
+
+
+{\noindent Determine the range of each function given in exercises}
+{.}
+{$f(x) = -2 \sin{(4x)} + 3$}
+{$[1,5]$}
+
+{$g(x) = 6\cos{(2x)} -8$}
+{$[-14,-2]$}
+
+{$h(x) = -\sin{(x)} -1$}
+{$[-2,0]$}
+
+{$f(\theta) =4\sin{(\theta-\pi)}$}
+{$[-4,4]$}
+
+
+{\noindent In exercises}
+{, use the unit circle to help you answer the given question.}
+{Find the ordered pair for the point on the unit circle associated with $\theta=\frac{5\pi}{4}$}
+{$(-\frac{\sqrt{2}}{2}, -\frac{\sqrt{2}}{2})$}
+
+{Sketch the a unit circle and the angle represented by $\theta = \frac{7\pi}{6}$. Find the ordered pair where this line intersects the unit circle and label this point on your sketch.}
+{\text{}\\ \myincludegraphics{figures/fig03_04_ex_16}\label{fig:03_04_ex_16}\\
+}
+
+{Sketch the a unit circle and the angle represented by $\theta = -\frac{2\pi}{3}$. Find the ordered pair where this line intersects the unit circle and label this point on your sketch.}
+{\text{}\\ \myincludegraphics{figures/fig03_04_ex_17}\label{fig:03_04_ex_17}\\
+}
+
+{Find the equation of the line that intersects the unit circle at $\theta = \pi$ and at $\theta=\frac{\pi}{3}$. Answer in slope intercept form.}
+{$y=\frac{\sqrt{3}}{3} x+\frac{\sqrt{3}}{3}$}
+
+

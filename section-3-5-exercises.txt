@@ -1,0 +1,69 @@
+Terms and Concepts
+{Sketch a right triangle that can be associated with $\theta = -\frac{\pi}{6}$ and evaluate $\sin{(\theta)}$.}
+{\text{}\\ \myincludegraphics{figures/fig03_05_ex_14}\label{fig:03_05_ex_14}\\
+$\sin{(-\frac{\pi}{6})} =-\frac{1}{2}$}
+
+{Explain why the range of $\arcsin{(x)}$ is restricted to $[-\frac{\pi}{2},\frac{\pi}{2}]$.}
+{The range of $\arcsin{(x)}$ is restricted so that every input only has one output.}
+
+{Explain how the unit circle helps evaluate inverse trigonometric functions.}
+{You can look through the coordinates to see when the regular function is equal to the input of the inverse function.}
+
+{True or false: $\sin^2{(5x)} + \cos^2{(5x)} =5$. If false, correct the statement.}
+{False, $\sin^2{(5x)} + \cos^2{(5x)} = 1$.}
+
+Problems
+{\noindent Evaluate each statement given in exercises}
+{.}
+{$\arcsin{(\frac{\sqrt{3}}{2})}$}
+{$\frac{\pi}{3}$}
+
+{$\arccos{(\frac{-\sqrt{3}}{2})}$}
+{$\frac{5\pi}{6}$}
+
+{$\arctan{(-1)}$}
+{$\frac{-\pi}{4}$}
+
+{$\arctan{(\sqrt{3})}$}
+{$\frac{\pi}{3}$}
+
+{$\arcsin{(0)}$}
+{$0$}
+
+
+{\noindent Use your knowledge of the trigonometric functions and their relationships to right triangles to answer the questions in exercises}
+{.}
+{Consider a right triangle with a hypotenuse of length 5 inches. If one of the sides measures 3 inches, what is the tangent of the angle that is opposite of that side?}
+{$\pm\frac{3}{4}$}
+
+{Consider a right triangle with a hypotenuse of length 5 inches. If one of the sides measures 2 inches, what is the sine of the angle that is opposite that side?}
+{$\frac{2}{5}$}
+
+{Imagine a circle with a radius of 2 units centered around the origin. What are the angles associated with the intersection(s) of this circle and the line $x=1$?}
+{$\theta = \frac{\pi}{3}, \frac{5\pi}{3}$}
+
+{Sketch a right triangle that can be associated with $\theta = -\frac{2\pi}{3}$ and evaluate $\tan{(\theta)}$.}
+{\text{}\\ \myincludegraphics{figures/fig03_05_ex_12}\label{fig:03_05_ex_12}\\
+$\tan{(-\frac{2\pi}{3})} = \sqrt{3}$}
+
+{Sketch a right triangle that can be associated with $\theta = \frac{5\pi}{4}$ and evaluate $\cot{(\theta)}$.}
+{\text{}\\ \myincludegraphics{figures/fig03_05_ex_13}\label{fig:03_05_ex_13}\\
+$\cot{(\frac{5\pi}{4})} =1$}
+
+{Sketch a right triangle that can be associated with $\theta = -\frac{\pi}{6}$ and evaluate $\sin{(\theta)}$.}
+{\text{}\\ \myincludegraphics{figures/fig03_05_ex_14}\label{fig:03_05_ex_14}\\
+$\sin{(-\frac{\pi}{6})} =-\frac{1}{2}$}
+
+{Suppose that $\sin{(\theta)}=\frac{3}{5}$. What are all possible values of $\cos{(\theta)}$?}
+{$\frac{4}{5}$ and $-\frac{4}{5}$.}
+
+{Suppose that $\cos{(\theta)}=\frac{5}{13}$. What are all possible values of $\tan{(\theta)}$?}
+{$\frac{12}{5}$ and $-\frac{12}{5}$.}
+
+{Suppose that $\tan{(\theta)}=-1$. What are all possible values of $\csc{(\theta)}$?}
+{$\sqrt{2}$ and $-\sqrt{2}$}
+
+{A classic calculus problem involves a ladder leaning against a wall. The base of the ladder starts sliding away from the wall causing the top of the ladder to slide down the wall. If you know that the ladder has a length of 13 feet, find the value of $\cos{(\theta)}$ when the base of the ladder is 12 feet away from the wall.}
+{$\frac{12}{13}$ if $\theta$ is the angle between the ladder and the floor; $\frac{5}{13}$ if $\theta$ is the angle between the ladder and the wall}
+
+
